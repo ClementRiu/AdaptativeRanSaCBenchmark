@@ -1,0 +1,8 @@
+./residual_distrib_pnp ../../../../datasets/megadepth_sfm/pnp_ready/test2/2D3D_pts.txt ../../../../datasets/megadepth_sfm/pnp_ready/test2/im.jpg ../../../../datasets/megadepth_sfm/pnp_ready/test2/calib_matrix.txt ../../../../manuscript/experiment/pnp2_outGM.txt ../../../../manuscript/experiment/pnp2_info.txt ../../../../manuscript/experiment/pnp2_outIN.txt ../../../../manuscript/experiment/pnp2_outOUT.txt
+
+./outlier_gen_distrib_pnp ../../../../manuscript/experiment/pnp2_outGM.txt ../../../../manuscript/experiment/pnp2_info.txt ../../../../datasets/megadepth_sfm/pnp_ready/test2/calib_matrix.txt ../../../../manuscript/experiment/pnp2_genOut.txt ../../../../manuscript/experiment/pnp2_genSmartOut.txt ../../../../manuscript/experiment/pnp2_genUniOut.txt
+
+
+-m 2 -f /home/clementriu/Documents/these/manuscript/experiments/distrib_exp/ess1_outGM.txt /home/clementriu/Documents/these/manuscript/experiments/distrib_exp/ess1_info.txt /home/clementriu/Documents/these/USAC/data/essential/test1/calib_matrices.txt /home/clementriu/Documents/these/manuscript/experiments/distrib_exp/ess1_outGenOut.txt /home/clementriu/Documents/these/manuscript/experiments/distrib_exp/ess1_outSmartOut.txt /home/clementriu/Documents/these/manuscript/experiments/distrib_exp/ess1_outUniOut.txt
+
+/home/clementriu/Documents/these/manuscript/experiments/distrib_exp/pnp2_outGM.txt /home/clementriu/Documents/these/manuscript/experiments/distrib_exp/pnp2_info.txt ../../../../datasets/megadepth_sfm/pnp_ready/test2/calib_matrix.txt /home/clementriu/Documents/these/manuscript/experiments/distrib_exp/pnp2_genOut.txt /home/clementriu/Documents/these/manuscript/experiments/distrib_exp/pnp2_genSmartOut.txt /home/clementriu/Documents/these/manuscript/experiments/distrib_exp/pnp2_genUniOut.txt 
